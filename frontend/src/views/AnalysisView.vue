@@ -134,9 +134,9 @@
                 <span class="factor-label">冗余率</span>
                 <div class="factor-bar">
                   <div class="progress-bar">
-                    <div class="progress-fill danger" :style="{ width: result.risk.redundancy_rate + '%' }"></div>
+                    <div class="progress-fill danger" :style="{ width: result.redundancy_rate + '%' }"></div>
                   </div>
-                  <span class="factor-value">{{ result.risk.redundancy_rate.toFixed(1) }}%</span>
+                  <span class="factor-value">{{ result.redundancy_rate.toFixed(1) }}%</span>
                 </div>
               </div>
               <div class="factor">

@@ -35,8 +35,8 @@ type RiskContribution struct {
 
 func DefaultRiskWeights() RiskWeights {
 	return RiskWeights{
-		CoverageGap:  0.6,
-		SinglePoint: 0.4,
+		CoverageGap:  0.8,
+		SinglePoint: 0.2,
 	}
 }
 
